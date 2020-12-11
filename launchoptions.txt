@@ -20,7 +20,7 @@ This is a list of launch options found in the source code. Keep in mind that som
 	tf2_src\appframework\glmrendererinfo_osx.mm:1241: -glmrenderer3
 	tf2_src\appframework\sdlmgr.cpp:471: -gl_debug
 	tf2_src\appframework\sdlmgr.cpp:485: -nomousegrab
-										 -mousegrab
+					     -mousegrab
 	tf2_src\appframework\sdlmgr.cpp:720: -glmnosystemcheck
 	tf2_src\appframework\sdlmgr.cpp:767: -gl_dump_strings
 	tf2_src\appframework\sdlmgr.cpp:1425: -exclusivefs
@@ -30,7 +30,7 @@ This is a list of launch options found in the source code. Keep in mind that som
 	tf2_src\appframework\VguiMatSysApp.cpp:278: -resizing
 	tf2_src\appframework\VguiMatSysApp.cpp:283: -mat_vsync
 	tf2_src\appframework\WinApp.cpp:61: -game
-										 -vproject
+						     -vproject
 	tf2_src\datacache\mdlcache.cpp:2894: -no_compressed_vvds
 	tf2_src\dedicated\console\TextConsoleUnix.cpp:324: -condebug
 	tf2_src\dedicated\console\TextConsoleUnix.cpp:325: -conclearlog
@@ -53,8 +53,8 @@ This is a list of launch options found in the source code. Keep in mind that som
 	tf2_src\engine\baseserver.cpp:1833: -nomaster
 	tf2_src\engine\bugreporter.cpp:2941: -internalbuild
 	tf2_src\engine\client.cpp:854: -nopreload
-									-nopreloadmodels
-									-nopreloadsounds
+					-nopreloadmodels
+					-nopreloadsounds
 	tf2_src\engine\client.cpp:858: -preload
 	tf2_src\engine\cl_demo.cpp:1820: -nosound
 	tf2_src\engine\cl_demo.cpp:1827: -nulldevice
@@ -87,7 +87,7 @@ This is a list of launch options found in the source code. Keep in mind that som
 	tf2_src\engine\host.cpp:4064: -insecure || -textmode
 	tf2_src\engine\host.cpp:4079: -pme
 	tf2_src\engine\host.cpp:4143: -dev || -allowdebug
-								-nodev
+					-nodev
 	tf2_src\engine\host.cpp:4155: -nocrashdialog
 	tf2_src\engine\host.cpp:4174: -nogamedll
 	tf2_src\engine\host.cpp:4241: -replay
@@ -106,7 +106,7 @@ This is a list of launch options found in the source code. Keep in mind that som
 	tf2_src\engine\MapReslistGenerator.cpp:598: -forever
 	tf2_src\engine\matsys_interface.cpp:592: -startwindowed
 	tf2_src\engine\matsys_interface.cpp:593: -windowed
-	tf2_src\engine\matsys_interface.cpp:599: -full ||	-fullscreen
+	tf2_src\engine\matsys_interface.cpp:599: -full || -fullscreen
 	tf2_src\engine\matsys_interface.cpp:605: -width || -w
 	tf2_src\engine\matsys_interface.cpp:609: -height || -h
 	tf2_src\engine\matsys_interface.cpp:622: -displayindex
@@ -132,7 +132,7 @@ This is a list of launch options found in the source code. Keep in mind that som
 	tf2_src\engine\sys_dll.cpp:411: -nomessagebox
 	tf2_src\engine\sys_dll.cpp:574: -minmemory
 	tf2_src\engine\sys_dll.cpp:1069: -nodttest
-										 -dti
+					-dti
 	tf2_src\engine\sys_dll.cpp:1077: -random_invariant
 	tf2_src\engine\sys_dll2.cpp:875: -nobreakpad
 	tf2_src\engine\sys_dll2.cpp:882: -full_memory_dumps
@@ -187,9 +187,9 @@ This is a list of launch options found in the source code. Keep in mind that som
 	tf2_src\inputsystem\joystick_sdl.cpp:178: -nojoy
 	tf2_src\launcher\launcher.cpp:381: -edit
 	tf2_src\launcher\launcher.cpp:425: -startmap
-										 -startstage
+					 -startstage
 	tf2_src\launcher\launcher.cpp:703: -tools
-										 -nop4 || -p4
+					 -nop4 || -p4
 	tf2_src\launcher\launcher.cpp:1209: -sleepatstartup
 	tf2_src\launcher\launcher.cpp:1259: -dllinfo
 	tf2_src\launcher\launcher.cpp:1260: -vxconsole
@@ -261,7 +261,7 @@ This is a list of launch options found in the source code. Keep in mind that som
 	tf2_src\togl\linuxwin\glmgr.cpp:2531: -glmspewslow
 	tf2_src\togl\linuxwin\glmgr.cpp:2532: -glcheckerrors
 	tf2_src\togl\linuxwin\glmgr.cpp:2543: -arbmode
-										 -glslcontrolflow
+						-glslcontrolflow
 	tf2_src\togl\linuxwin\glmgr.cpp:2601: -glmspewcaps
 	tf2_src\togl\linuxwin\glmgr.cpp:2666: -glmwriteallslots
 	tf2_src\togl\linuxwin\glmgr.cpp:2667: -glmwriteshaderslots
