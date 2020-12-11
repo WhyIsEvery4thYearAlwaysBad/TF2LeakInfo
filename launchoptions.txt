@@ -1,330 +1,330 @@
 This is a list of launch options found in the source code. Keep in mind that some of these may be disabled.
 
-tf2_src\app\legion\gamemanager.cpp:231: -yieldcycles
-tf2_src\appframework\glmdisplaydb_linuxwin.inl:56: -glmdisableclipplanes
-tf2_src\appframework\glmdisplaydb_linuxwin.inl:62: -glmenableclipplanes
-tf2_src\appframework\glmdisplaydb_linuxwin.inl:98: -glmdualshaders
-tf2_src\appframework\glmdisplaydb_linuxwin.inl:110: -glmenabletrustblit
-tf2_src\appframework\glmdisplaydb_linuxwin.inl:114: -glmdisabletrustblit
-tf2_src\appframework\glmrendererinfo_osx.mm:249: -glmenablefakesrgb
-tf2_src\appframework\glmrendererinfo_osx.mm:373: -glmenableperfpackage
-tf2_src\appframework\glmrendererinfo_osx.mm:378: -glmdisableperfpackage
-tf2_src\appframework\glmrendererinfo_osx.mm:426: -gl_enable_scaled_resolve
-tf2_src\appframework\glmrendererinfo_osx.mm:437: -gl_force_enable_scaled_resolve
-tf2_src\appframework\glmrendererinfo_osx.mm:457: -glmenablemallocworkaround
-tf2_src\appframework\glmrendererinfo_osx.mm:461: -glmdisablemallocworkaround
-tf2_src\appframework\glmrendererinfo_osx.mm:877: -fakeleopard
-tf2_src\appframework\glmrendererinfo_osx.mm:1235: -glmrenderer0
-tf2_src\appframework\glmrendererinfo_osx.mm:1237: -glmrenderer1
-tf2_src\appframework\glmrendererinfo_osx.mm:1239: -glmrenderer2
-tf2_src\appframework\glmrendererinfo_osx.mm:1241: -glmrenderer3
-tf2_src\appframework\sdlmgr.cpp:471: -gl_debug
-tf2_src\appframework\sdlmgr.cpp:485: -nomousegrab
-									 -mousegrab
-tf2_src\appframework\sdlmgr.cpp:720: -glmnosystemcheck
-tf2_src\appframework\sdlmgr.cpp:767: -gl_dump_strings
-tf2_src\appframework\sdlmgr.cpp:1425: -exclusivefs
-tf2_src\appframework\sdlmgr.cpp:1444: -nonqwerty
-tf2_src\appframework\VguiMatSysApp.cpp:183: -fullscreen
-tf2_src\appframework\VguiMatSysApp.cpp:214: -ref
-tf2_src\appframework\VguiMatSysApp.cpp:278: -resizing
-tf2_src\appframework\VguiMatSysApp.cpp:283: -mat_vsync
-tf2_src\appframework\WinApp.cpp:61: -game
-									 -vproject
-tf2_src\datacache\mdlcache.cpp:2894: -no_compressed_vvds
-tf2_src\dedicated\console\TextConsoleUnix.cpp:324: -condebug
-tf2_src\dedicated\console\TextConsoleUnix.cpp:325: -conclearlog
-tf2_src\dedicated\sys_common.cpp:51: -usegh
-tf2_src\dedicated\sys_common.cpp:155: -consoledebug
-tf2_src\dedicated\sys_common.cpp:211: -noassert
-tf2_src\dedicated\sys_common.cpp:281: -basedir
-tf2_src\dedicated\sys_ded.cpp:323: -textmode
-tf2_src\dedicated\sys_windows.cpp:385: -nominidumps
-tf2_src\dedicated\vgui\CreateMultiplayerGameServerPage.cpp:134: -steam
-tf2_src\devtools\processgamestats\tf_gamestats_parse.cpp:427: -deathsonly
-tf2_src\engine\audio\private\snd_dev_direct.cpp:844: -snoforceformat
-tf2_src\engine\audio\private\snd_dma.cpp:640: -wavonly
-tf2_src\engine\audio\private\snd_dma.cpp:687: -forcesound
-tf2_src\engine\audio\private\snd_dma.cpp:697: -nosound
-tf2_src\engine\audio\private\snd_wave_source.cpp:2367: -sndcachedebug
-tf2_src\engine\audio\private\snd_win.cpp:97: -snd_openal
-tf2_src\engine\audio\private\vox.cpp:2382: -makereslists
-tf2_src\engine\audio\private\vox.cpp:2383: -spewsentences
-tf2_src\engine\baseserver.cpp:1833: -nomaster
-tf2_src\engine\bugreporter.cpp:2941: -internalbuild
-tf2_src\engine\client.cpp:854: -nopreload
-								-nopreloadmodels
-								-nopreloadsounds
-tf2_src\engine\client.cpp:858: -preload
-tf2_src\engine\cl_demo.cpp:1820: -nosound
-tf2_src\engine\cl_demo.cpp:1827: -nulldevice
-tf2_src\engine\cl_demo.cpp:1829: -timedemo_comment
-tf2_src\engine\cl_main.cpp:324: -demo
-tf2_src\engine\cl_main.cpp:1130: -buildcubemaps
-tf2_src\engine\cl_main.cpp:1145: -navanalyze
-tf2_src\engine\cl_main.cpp:1149: -navforceanalyze
-tf2_src\engine\cl_main.cpp:1153: -exit
-tf2_src\engine\cl_main.cpp:1265: -timedemoloop
-tf2_src\engine\cl_main.cpp:2363: -forcestartupmenu
-tf2_src\engine\cl_main.cpp:2369: -dev
-tf2_src\engine\cl_main.cpp:2373: +map
-tf2_src\engine\cl_main.cpp:2374: +connect
-tf2_src\engine\cl_main.cpp:2375: +playdemo
-tf2_src\engine\cl_main.cpp:2376: +timedemo
-tf2_src\engine\cl_main.cpp:2377: +timedemoquit
-tf2_src\engine\cl_main.cpp:2378: +load
-tf2_src\engine\cmd.cpp:1048: -default
-tf2_src\engine\common.cpp:777: -uselogdir
-tf2_src\engine\common.cpp:900: -audiolanguage
-tf2_src\engine\common.cpp:957: -dxlevel
-tf2_src\engine\console.cpp:247: -console || -rpt
-tf2_src\engine\DevShotGenerator.cpp:36: -makedevshots
-tf2_src\engine\DevShotGenerator.cpp:39: -usedevshotsfile
-tf2_src\engine\dt_common_eng.cpp:114: -dti
-tf2_src\engine\hltvserver.cpp:1722: -tvmasteronly
-tf2_src\engine\host.cpp:1542: -forcexboxreconfig
-tf2_src\engine\host.cpp:1916: -tools
-tf2_src\engine\host.cpp:4064: -insecure || -textmode
-tf2_src\engine\host.cpp:4079: -pme
-tf2_src\engine\host.cpp:4143: -dev || -allowdebug
-							-nodev
-tf2_src\engine\host.cpp:4155: -nocrashdialog
-tf2_src\engine\host.cpp:4174: -nogamedll
-tf2_src\engine\host.cpp:4241: -replay
-tf2_src\engine\host.cpp:4272: -swapcores
-tf2_src\engine\host.cpp:4284: -heapcheck
-tf2_src\engine\host.cpp:4312: -phonehome
-tf2_src\engine\host_phonehome.cpp:71: -bi
-tf2_src\engine\host_phonehome.cpp:409: -publicbuild
-tf2_src\engine\host_saverestore.cpp:3290: -noclearsave
-tf2_src\engine\host_state.cpp:733: -dumpvidmemstats
-tf2_src\engine\MapReslistGenerator.cpp:62: -usereslistfile
-tf2_src\engine\MapReslistGenerator.cpp:68: -rebuildaudio
-tf2_src\engine\MapReslistGenerator.cpp:73: -trackdeletions
-tf2_src\engine\MapReslistGenerator.cpp:419: -startmap
-tf2_src\engine\MapReslistGenerator.cpp:527: -norebuildaudio
-tf2_src\engine\MapReslistGenerator.cpp:598: -forever
-tf2_src\engine\matsys_interface.cpp:592: -startwindowed
-tf2_src\engine\matsys_interface.cpp:593: -windowed
-tf2_src\engine\matsys_interface.cpp:599: -full ||	-fullscreen
-tf2_src\engine\matsys_interface.cpp:605: -width || -w
-tf2_src\engine\matsys_interface.cpp:609: -height || -h
-tf2_src\engine\matsys_interface.cpp:622: -displayindex
-tf2_src\engine\matsys_interface.cpp:668: -safe
-tf2_src\engine\matsys_interface.cpp:781: -autoconfig
-tf2_src\engine\modelloader.cpp:2439: -requirecubemaps
-tf2_src\engine\net_ws.cpp:73: -xnet_bypass_security
-tf2_src\engine\net_ws.cpp:616: -reuse
-tf2_src\engine\net_ws.cpp:675: -strictportbind
-tf2_src\engine\net_ws.cpp:3064: -usercon
-tf2_src\engine\net_ws.cpp:3198: -NoQueuedPacketThread
-tf2_src\engine\net_ws.cpp:3204: -nodns
-tf2_src\engine\net_ws.cpp:3209: -usetcp
-tf2_src\engine\net_ws.cpp:3214: -nohltv
-tf2_src\engine\net_ws.cpp:3219: -noip
-tf2_src\engine\sv_log.cpp:283: -flushlog
-tf2_src\engine\sv_main.cpp:924: -NoLoadPluginsForClient
-tf2_src\engine\sv_main.cpp:2581: -allowstalezip
-tf2_src\engine\sv_packedentities.cpp:642: -netspike
-tf2_src\engine\sv_steamauth.cpp:172: -steamport
-tf2_src\engine\sv_steamauth.cpp:237: -hushsteam
-tf2_src\engine\sv_uploadgamestats.cpp:355: -nogamestats
-tf2_src\engine\sys_dll.cpp:411: -nomessagebox
-tf2_src\engine\sys_dll.cpp:574: -minmemory
-tf2_src\engine\sys_dll.cpp:1069: -nodttest
-									 -dti
-tf2_src\engine\sys_dll.cpp:1077: -random_invariant
-tf2_src\engine\sys_dll2.cpp:875: -nobreakpad
-tf2_src\engine\sys_dll2.cpp:882: -full_memory_dumps
-tf2_src\engine\sys_dll2.cpp:1135: -vr
-tf2_src\engine\sys_dll2.cpp:1166: -sv_benchmark
-tf2_src\engine\sys_dll2.cpp:2289: -dumplongticks
-tf2_src\engine\sys_dll2.cpp:2400: +sv_pure
-tf2_src\engine\sys_dll2.cpp:2402: -sv_pure
-tf2_src\engine\sys_dll2.cpp:2405: -sv_pure_verify_hashes
-tf2_src\engine\sys_getmodes.cpp:858: -debugstartupscreen
-tf2_src\engine\sys_getmodes.cpp:1029: -noshaderapi
-tf2_src\engine\sys_getmodes.cpp:1377: -noborder
-tf2_src\engine\sys_getmodes.cpp:2289: -small
-tf2_src\engine\sys_mainwind.cpp:1261: -endgamevid
-tf2_src\engine\sys_mainwind.cpp:1262: -recapvid
-tf2_src\engine\sys_mainwind.cpp:1279: -dev || -novid || -allowdebug
-tf2_src\engine\tmessage.cpp:378: -textmessagedebug
-tf2_src\engine\vgui_baseui_interface.cpp:820: -hideconsole
-tf2_src\engine\vgui_baseui_interface.cpp:821: -toconsole || -console || -rpt || -allowdebug
-tf2_src\external\vpc\tier0\dbg.cpp:341: -profile
-tf2_src\external\vpc\tier0\dbg.cpp:344: -etwprofile
-tf2_src\external\vpc\tier1\interface.cpp:336: -xlsp
-tf2_src\external\vpc\tier1\interface.cpp:341: -valveinternal
-tf2_src\external\vpc\tier1\interface.cpp:347: -ds
-tf2_src\filesystem\basefilesystem.cpp:94: -log_opened_files
-tf2_src\filesystem\basefilesystem.cpp:339: -dvd
-tf2_src\filesystem\basefilesystem.cpp:343: -dvddev
-tf2_src\filesystem\basefilesystem.cpp:469: -fs_logbins
-tf2_src\filesystem\basefilesystem.cpp:3102: -fs_nopreloaddata
-tf2_src\filesystem\filesystem_async.cpp:657: -noasync
-tf2_src\filesystem\filesystem_steam.cpp:331: -steamlocal
-tf2_src\filesystem\QueuedLoader.cpp:1624: -noqueuedload
-tf2_src\game\client\hud_lcd.cpp:55: -g15
-tf2_src\game\client\in_forcefeedback.cpp:479: -noff
-tf2_src\game\client\ScreenSpaceEffects.cpp:68: -filmgrain
-tf2_src\game\client\tf\tf_gc_client.cpp:76: -nosteamdatagram
-tf2_src\game\client\tf\tf_hud_mainmenuoverride.cpp:665: -menupaintduringinit
-tf2_src\game\client\tf\vgui\tf_viewport.cpp:285: -precachefontchars ||  -precachefontintlchars
-tf2_src\game\server\cstrike\bot\cs_bot_manager.cpp:52: -nobots
-tf2_src\game\server\gameinterface.cpp:840: -tickrate
-tf2_src\game\server\GameStats.cpp:629: -gamestatsloggingtofile
-tf2_src\game\server\tf\workshop\maps_workshop.cpp:63: -ugcpath
-tf2_src\game\shared\GameStats.cpp:1054: -gamestatsfileoutputonly
-tf2_src\game\shared\multiplay_gamerules.cpp:1751: -bugbait
-tf2_src\game\shared\tf\tf_gamerules.cpp:3123: -sillygibs
-tf2_src\gameui\GameUI_Interface.cpp:392: -nostartupsound
-tf2_src\gcsdk\gcbase.cpp:132: -raiseonassert
-tf2_src\hammer\hammer.cpp:924: -chooseconfig
-tf2_src\hammer\op_entity.cpp:3658: -NewDialogs
-tf2_src\hammer_launcher\main.cpp:105: -nop4
-tf2_src\inputsystem\inputsystem.cpp:95: -nosteamcontroller
-tf2_src\inputsystem\joystick_sdl.cpp:178: -nojoy
-tf2_src\launcher\launcher.cpp:381: -edit
-tf2_src\launcher\launcher.cpp:425: -startmap
-									 -startstage
-tf2_src\launcher\launcher.cpp:703: -tools
-									 -nop4 || -p4
-tf2_src\launcher\launcher.cpp:1209: -sleepatstartup
-tf2_src\launcher\launcher.cpp:1259: -dllinfo
-tf2_src\launcher\launcher.cpp:1260: -vxconsole
-tf2_src\launcher\launcher.cpp:1371: -multirun
-tf2_src\launcher\launcher.cpp:1375: -hijack
-tf2_src\launcher\launcher.cpp:1433: -low
-tf2_src\launcher\launcher.cpp:1437: -high
-tf2_src\launcher\launcher.cpp:1453: -leakcheck
-tf2_src\launcher\reslistgenerator.cpp:503: -collate
-tf2_src\materialsystem\cmaterialsystem.cpp:844: -forceallmips
-tf2_src\materialsystem\cmaterialsystem.cpp:5182: -matscan
-tf2_src\materialsystem\shaderapidx9\gpubufferallocator.cpp:47: -no_gpu_buffer_allocator
-tf2_src\materialsystem\shaderapidx9\hardwareconfig.cpp:542: -glslmode
-tf2_src\materialsystem\shaderapidx9\hardwareconfig.cpp:587: -glslcontrolflow
-tf2_src\materialsystem\shaderapidx9\hardwareconfig.cpp:591: -noglslcontrolflow
-tf2_src\materialsystem\shaderapidx9\hardwareconfig.cpp:926: -disallowhwmorph
-tf2_src\materialsystem\shaderapidx9\shaderapidx8.cpp:3293: -disable_d3d9_hacks
-tf2_src\materialsystem\shaderapidx9\shaderdevicebase.cpp:517: -debugdxsupport
-tf2_src\materialsystem\shaderapidx9\shaderdevicebase.cpp:527: -ignoredxsupportcfg
-tf2_src\materialsystem\shaderapidx9\shaderdevicebase.cpp:623: -arbmode ||  -nouserclip
-tf2_src\materialsystem\shaderapidx9\shaderdevicedx10.cpp:175: -floathdr
-tf2_src\materialsystem\shaderapidx9\shaderdevicedx8.cpp:154: -nod3d9ex
-tf2_src\materialsystem\shaderapidx9\shaderdevicedx8.cpp:602: -force_device_id
-tf2_src\materialsystem\shaderapidx9\shaderdevicedx8.cpp:616: -force_vendor_id
-tf2_src\materialsystem\shaderapidx9\shaderdevicedx8.cpp:688: -nops2b
-tf2_src\materialsystem\shaderapidx9\shaderdevicedx8.cpp:694: -mat_softwaretl
-tf2_src\materialsystem\shaderapidx9\shaderdevicedx8.cpp:786: -limitvsconst
-tf2_src\materialsystem\shaderapidx9\shaderdevicedx8.cpp:877: -nouserclip 
-															 -glslmode // NOTE: This launch option was commented out.
-tf2_src\materialsystem\shaderapidx9\shaderdevicedx8.cpp:918: -nosrgb
-tf2_src\materialsystem\shaderapidx9\shaderdevicedx8.cpp:1126: -no_compressed_verts
-tf2_src\materialsystem\shaderapidx9\shaderdevicedx8.cpp:1686: -forcenovsync
-tf2_src\materialsystem\shaderapidx9\vertexshaderdx8.cpp:901: -shadersondemand
-tf2_src\materialsystem\shadersystem.cpp:350: -testshaders
-tf2_src\materialsystem\shadersystem.cpp:689: -glmspew
-tf2_src\materialsystem\stdshaders\spritecard.cpp:44: -softparticlesdefaultoff
-tf2_src\materialsystem\stdshaders\spritecard.cpp:51: -softparticlesdefaulton
-tf2_src\materialsystem\texturemanager.cpp:2754: -no_texture_stream
-tf2_src\public\filesystem_init.cpp:500: -tempcontent
-tf2_src\public\togl\linuxwin\glmgr.h:518: -caps_noclipplanes
-tf2_src\public\togl\linuxwin\glmgr.h:2351: -disablemaxvertexshaderconstanthints
-tf2_src\sdklauncher\Main.cpp:508: -runhammer
-tf2_src\sdklauncher\Main.cpp:514: -runmodelviewer
-tf2_src\sdklauncher\Main.cpp:520: -runfaceposer
-tf2_src\sdklauncher\Main.cpp:533: -AutoHL2Mod
-tf2_src\sdklauncher\Main.cpp:536: -CreateMod
-tf2_src\tier0\dbg.cpp:381: -hushasserts
-tf2_src\tier1\KeyValues.cpp:657: -enable_keyvalues_cache
-tf2_src\togl\linuxwin\cglmprogram.cpp:359: -gl_time_shader_compiles
-tf2_src\togl\linuxwin\cglmprogram.cpp:482: -gl_validate_shader_early
-tf2_src\togl\linuxwin\cglmprogram.cpp:1166: -dumpallshaders
-tf2_src\togl\linuxwin\cglmtex.cpp:1254: -disable_srgbtex
-tf2_src\togl\linuxwin\cglmtex.cpp:1795: -glmspewallsrgbflips
-tf2_src\togl\linuxwin\cglmtex.cpp:1796: -glmspewfirstsrgbflips
-tf2_src\togl\linuxwin\cglmtex.cpp:1797: -glmspewfreqsrgbflips
-tf2_src\togl\linuxwin\cglmtex.cpp:1798: -glmspewsrgbcrawls
-tf2_src\togl\linuxwin\cglmtex.cpp:1799: -glmspewsrgbmaxcrawls
-tf2_src\togl\linuxwin\cglmtex.cpp:1874: -glmnosrgbflips
-tf2_src\togl\linuxwin\dxabstract.cpp:1677: -glmenabletrustmsaa
-tf2_src\togl\linuxwin\dxabstract.cpp:4180: -disableboneuniformbuffers
-tf2_src\togl\linuxwin\glentrypoints.cpp:432: -gl_nv_bindless_texturing
-tf2_src\togl\linuxwin\glentrypoints.cpp:446: -gl_amd_pinned_memory
-tf2_src\togl\linuxwin\glentrypoints.cpp:455: -gl_disable_arb_buffer_storage
-tf2_src\togl\linuxwin\glentrypoints.cpp:472: -glmnosrgbdecode
-tf2_src\togl\linuxwin\glmgr.cpp:2464: -gl_disablesamplerobjects
-tf2_src\togl\linuxwin\glmgr.cpp:2470: -gl_enablesamplerobjects
-tf2_src\togl\linuxwin\glmgr.cpp:2479: -gl_texclientstorage
-tf2_src\togl\linuxwin\glmgr.cpp:2530: -glmassertslow
-tf2_src\togl\linuxwin\glmgr.cpp:2531: -glmspewslow
-tf2_src\togl\linuxwin\glmgr.cpp:2532: -glcheckerrors
-tf2_src\togl\linuxwin\glmgr.cpp:2543: -arbmode
-									 -glslcontrolflow
-tf2_src\togl\linuxwin\glmgr.cpp:2601: -glmspewcaps
-tf2_src\togl\linuxwin\glmgr.cpp:2666: -glmwriteallslots
-tf2_src\togl\linuxwin\glmgr.cpp:2667: -glmwriteshaderslots
-tf2_src\togl\linuxwin\glmgr.cpp:2668: -glmwriteshaderslotsoptional
-tf2_src\togl\linuxwin\glmgr.cpp:2669: -glmwritedirtyslotrange
-tf2_src\togl\linuxwin\glmgr.cpp:2673: -glmwriteallattribs
-tf2_src\togl\linuxwin\glmgr.cpp:2674: -glmwritedirtyattribs
-tf2_src\togl\linuxwin\glmgr.cpp:2755: -glmenablemtgl2
-tf2_src\togl\linuxwin\glmgr.cpp:2760: -glmdisablemtgl2
-tf2_src\togl\linuxwin\glmgrbasics.cpp:2726: -noprintconsole
-tf2_src\togl\linuxwin\glmgrbasics.cpp:2731: -noprintdebugger
-tf2_src\togl\linuxwin\glmgrbasics.cpp:2736: -noprintoglp
-tf2_src\togl\linuxwin\glmgrbasics.cpp:2754: -glmbootspew
-tf2_src\tracker\AdminServer\GamePanelInfo.cpp:85: -BudgetPanel
-tf2_src\unittests\ihvtest1\ihvtest1.cpp:1346: -bench
-tf2_src\unittests\ihvtest1\ihvtest1.cpp:1366: -softwaretl
-tf2_src\utils\dmxedit\dmxedit.cpp:3732: -coe || -continueOnError
-tf2_src\utils\dmxedit\luamain.cpp:142: -h || -help
-tf2_src\utils\dmxedit\luamain.cpp:148: -wiki
-tf2_src\utils\glview\glview.cpp:1374: -portal
-tf2_src\utils\hlfaceposer\mdlviewer.cpp:770: -NoSteamDialog
-tf2_src\utils\hlfaceposer\mxexpressiontray.cpp:1169: -perplayerexpressions
-tf2_src\utils\hlmv\controlpanel.cpp:3013: -nosort
-tf2_src\utils\hlmv\mdlviewer.cpp:1357: -olddialogs
-tf2_src\utils\hlmv\mdlviewer.cpp:1459: -NoSteamdDialog
-tf2_src\utils\hlmv\mdlviewer.cpp:1505: -screenshot
-tf2_src\utils\sceneviewer\sceneviewer.cpp:407: -nozoom
-tf2_src\utils\sceneviewer\sceneviewer.cpp:417: -showasset
-tf2_src\utils\sceneviewer\sceneviewer.cpp:423: -showcomboeditor
-tf2_src\utils\sfmgen\sfmgen.cpp:941: -nosfm
-tf2_src\utils\sfmgen\sfmgen.cpp:942: -mp3
-tf2_src\utils\shadercompile\d3dxfxc.cpp:240: -nointercept
-tf2_src\utils\shadercompile\shadercompile.cpp:1132: -debugwait
-tf2_src\utils\shadercompile\shadercompile.cpp:2227: -verbose
-tf2_src\utils\shadercompile\shadercompile.cpp:2389: -subprocess
-tf2_src\utils\shadercompile\shadercompile.cpp:2398: -x360
-tf2_src\utils\shadercompile\shadercompile.cpp:2401: -nompi
-tf2_src\utils\vmpi\vmpi_distribute_work_default.cpp:348: -mpi_NoScheduler
-tf2_src\utils\vmpi\vmpi_transfer\vmpi_transfer.cpp:159: -PatchHost
-tf2_src\utils\vtex\vtex.cpp:131: -crcvalidate
-tf2_src\utils\vtex\vtex.cpp:1837: -crcforce
-tf2_src\utils\vtex\vtex.cpp:2382: -deducepath
-tf2_src\utils\vtex\vtex.cpp:2437: -quickconvert
-tf2_src\utils\vtex\vtex.cpp:2859: -p4skip
-tf2_src\utils\vtf2tga\vtf2tga.cpp:65: -mip
-tf2_src\utils\xbox\MakeGameData\MakeGameData.cpp:1040: -v || -version
-tf2_src\utils\xbox\MakeGameData\MakeGameData.cpp:1047: -? || -h || -help
-tf2_src\utils\xbox\MakeGameData\MakeGameData.cpp:1069: -recurse || -r
-tf2_src\utils\xbox\MakeGameData\MakeGameData.cpp:1070: -force || -f
-tf2_src\utils\xbox\MakeGameData\MakeGameData.cpp:1072: -quiet || -q
-tf2_src\utils\xbox\MakeGameData\MakeGameData.cpp:1073: -scenes
-tf2_src\utils\xbox\MakeGameData\MakeGameData.cpp:1074: -pcscenes
-tf2_src\utils\xbox\MakeGameData\MakeGameData.cpp:1080: -usemaplist
-tf2_src\utils\xbox\MakeGameData\MakeGameData.cpp:1085: -z
-tf2_src\utils\xbox\MakeGameData\MakeGameData.cpp:1095: -zo
-tf2_src\utils\xbox\MakeGameData\MakeGameData.cpp:1126: -preloadinfo
-tf2_src\utils\xbox\vxbdm\console.cpp:569: -syncoutput
-tf2_src\utils\xbox\xbspinfo\xbspinfo.cpp:406: -p || -percent
-tf2_src\utils\xbox\xbspinfo\xbspinfo.cpp:407: -b || -bytes
-tf2_src\utils\xbox\xbspinfo\xbspinfo.cpp:409: -ss
-tf2_src\utils\xbox\xbspinfo\xbspinfo.cpp:410: -names
-tf2_src\vgui2\src\InputWin32.cpp:560: -vguifocus
-tf2_src\vgui2\src\LocalizedStringTable.cpp:429: -ccsyntax
-tf2_src\vgui2\src\vgui.cpp:1158: -vguimessages
-tf2_src\vguimatsurface\MatSystemSurface.cpp:348: -disable_matsurf_noculls
-tf2_src\video\quicktime_video.cpp:696: -noquicktime
+	tf2_src\app\legion\gamemanager.cpp:231: -yieldcycles
+	tf2_src\appframework\glmdisplaydb_linuxwin.inl:56: -glmdisableclipplanes
+	tf2_src\appframework\glmdisplaydb_linuxwin.inl:62: -glmenableclipplanes
+	tf2_src\appframework\glmdisplaydb_linuxwin.inl:98: -glmdualshaders
+	tf2_src\appframework\glmdisplaydb_linuxwin.inl:110: -glmenabletrustblit
+	tf2_src\appframework\glmdisplaydb_linuxwin.inl:114: -glmdisabletrustblit
+	tf2_src\appframework\glmrendererinfo_osx.mm:249: -glmenablefakesrgb
+	tf2_src\appframework\glmrendererinfo_osx.mm:373: -glmenableperfpackage
+	tf2_src\appframework\glmrendererinfo_osx.mm:378: -glmdisableperfpackage
+	tf2_src\appframework\glmrendererinfo_osx.mm:426: -gl_enable_scaled_resolve
+	tf2_src\appframework\glmrendererinfo_osx.mm:437: -gl_force_enable_scaled_resolve
+	tf2_src\appframework\glmrendererinfo_osx.mm:457: -glmenablemallocworkaround
+	tf2_src\appframework\glmrendererinfo_osx.mm:461: -glmdisablemallocworkaround
+	tf2_src\appframework\glmrendererinfo_osx.mm:877: -fakeleopard
+	tf2_src\appframework\glmrendererinfo_osx.mm:1235: -glmrenderer0
+	tf2_src\appframework\glmrendererinfo_osx.mm:1237: -glmrenderer1
+	tf2_src\appframework\glmrendererinfo_osx.mm:1239: -glmrenderer2
+	tf2_src\appframework\glmrendererinfo_osx.mm:1241: -glmrenderer3
+	tf2_src\appframework\sdlmgr.cpp:471: -gl_debug
+	tf2_src\appframework\sdlmgr.cpp:485: -nomousegrab
+										 -mousegrab
+	tf2_src\appframework\sdlmgr.cpp:720: -glmnosystemcheck
+	tf2_src\appframework\sdlmgr.cpp:767: -gl_dump_strings
+	tf2_src\appframework\sdlmgr.cpp:1425: -exclusivefs
+	tf2_src\appframework\sdlmgr.cpp:1444: -nonqwerty
+	tf2_src\appframework\VguiMatSysApp.cpp:183: -fullscreen
+	tf2_src\appframework\VguiMatSysApp.cpp:214: -ref
+	tf2_src\appframework\VguiMatSysApp.cpp:278: -resizing
+	tf2_src\appframework\VguiMatSysApp.cpp:283: -mat_vsync
+	tf2_src\appframework\WinApp.cpp:61: -game
+										 -vproject
+	tf2_src\datacache\mdlcache.cpp:2894: -no_compressed_vvds
+	tf2_src\dedicated\console\TextConsoleUnix.cpp:324: -condebug
+	tf2_src\dedicated\console\TextConsoleUnix.cpp:325: -conclearlog
+	tf2_src\dedicated\sys_common.cpp:51: -usegh
+	tf2_src\dedicated\sys_common.cpp:155: -consoledebug
+	tf2_src\dedicated\sys_common.cpp:211: -noassert
+	tf2_src\dedicated\sys_common.cpp:281: -basedir
+	tf2_src\dedicated\sys_ded.cpp:323: -textmode
+	tf2_src\dedicated\sys_windows.cpp:385: -nominidumps
+	tf2_src\dedicated\vgui\CreateMultiplayerGameServerPage.cpp:134: -steam
+	tf2_src\devtools\processgamestats\tf_gamestats_parse.cpp:427: -deathsonly
+	tf2_src\engine\audio\private\snd_dev_direct.cpp:844: -snoforceformat
+	tf2_src\engine\audio\private\snd_dma.cpp:640: -wavonly
+	tf2_src\engine\audio\private\snd_dma.cpp:687: -forcesound
+	tf2_src\engine\audio\private\snd_dma.cpp:697: -nosound
+	tf2_src\engine\audio\private\snd_wave_source.cpp:2367: -sndcachedebug
+	tf2_src\engine\audio\private\snd_win.cpp:97: -snd_openal
+	tf2_src\engine\audio\private\vox.cpp:2382: -makereslists
+	tf2_src\engine\audio\private\vox.cpp:2383: -spewsentences
+	tf2_src\engine\baseserver.cpp:1833: -nomaster
+	tf2_src\engine\bugreporter.cpp:2941: -internalbuild
+	tf2_src\engine\client.cpp:854: -nopreload
+									-nopreloadmodels
+									-nopreloadsounds
+	tf2_src\engine\client.cpp:858: -preload
+	tf2_src\engine\cl_demo.cpp:1820: -nosound
+	tf2_src\engine\cl_demo.cpp:1827: -nulldevice
+	tf2_src\engine\cl_demo.cpp:1829: -timedemo_comment
+	tf2_src\engine\cl_main.cpp:324: -demo
+	tf2_src\engine\cl_main.cpp:1130: -buildcubemaps
+	tf2_src\engine\cl_main.cpp:1145: -navanalyze
+	tf2_src\engine\cl_main.cpp:1149: -navforceanalyze
+	tf2_src\engine\cl_main.cpp:1153: -exit
+	tf2_src\engine\cl_main.cpp:1265: -timedemoloop
+	tf2_src\engine\cl_main.cpp:2363: -forcestartupmenu
+	tf2_src\engine\cl_main.cpp:2369: -dev
+	tf2_src\engine\cl_main.cpp:2373: +map
+	tf2_src\engine\cl_main.cpp:2374: +connect
+	tf2_src\engine\cl_main.cpp:2375: +playdemo
+	tf2_src\engine\cl_main.cpp:2376: +timedemo
+	tf2_src\engine\cl_main.cpp:2377: +timedemoquit
+	tf2_src\engine\cl_main.cpp:2378: +load
+	tf2_src\engine\cmd.cpp:1048: -default
+	tf2_src\engine\common.cpp:777: -uselogdir
+	tf2_src\engine\common.cpp:900: -audiolanguage
+	tf2_src\engine\common.cpp:957: -dxlevel
+	tf2_src\engine\console.cpp:247: -console || -rpt
+	tf2_src\engine\DevShotGenerator.cpp:36: -makedevshots
+	tf2_src\engine\DevShotGenerator.cpp:39: -usedevshotsfile
+	tf2_src\engine\dt_common_eng.cpp:114: -dti
+	tf2_src\engine\hltvserver.cpp:1722: -tvmasteronly
+	tf2_src\engine\host.cpp:1542: -forcexboxreconfig
+	tf2_src\engine\host.cpp:1916: -tools
+	tf2_src\engine\host.cpp:4064: -insecure || -textmode
+	tf2_src\engine\host.cpp:4079: -pme
+	tf2_src\engine\host.cpp:4143: -dev || -allowdebug
+								-nodev
+	tf2_src\engine\host.cpp:4155: -nocrashdialog
+	tf2_src\engine\host.cpp:4174: -nogamedll
+	tf2_src\engine\host.cpp:4241: -replay
+	tf2_src\engine\host.cpp:4272: -swapcores
+	tf2_src\engine\host.cpp:4284: -heapcheck
+	tf2_src\engine\host.cpp:4312: -phonehome
+	tf2_src\engine\host_phonehome.cpp:71: -bi
+	tf2_src\engine\host_phonehome.cpp:409: -publicbuild
+	tf2_src\engine\host_saverestore.cpp:3290: -noclearsave
+	tf2_src\engine\host_state.cpp:733: -dumpvidmemstats
+	tf2_src\engine\MapReslistGenerator.cpp:62: -usereslistfile
+	tf2_src\engine\MapReslistGenerator.cpp:68: -rebuildaudio
+	tf2_src\engine\MapReslistGenerator.cpp:73: -trackdeletions
+	tf2_src\engine\MapReslistGenerator.cpp:419: -startmap
+	tf2_src\engine\MapReslistGenerator.cpp:527: -norebuildaudio
+	tf2_src\engine\MapReslistGenerator.cpp:598: -forever
+	tf2_src\engine\matsys_interface.cpp:592: -startwindowed
+	tf2_src\engine\matsys_interface.cpp:593: -windowed
+	tf2_src\engine\matsys_interface.cpp:599: -full ||	-fullscreen
+	tf2_src\engine\matsys_interface.cpp:605: -width || -w
+	tf2_src\engine\matsys_interface.cpp:609: -height || -h
+	tf2_src\engine\matsys_interface.cpp:622: -displayindex
+	tf2_src\engine\matsys_interface.cpp:668: -safe
+	tf2_src\engine\matsys_interface.cpp:781: -autoconfig
+	tf2_src\engine\modelloader.cpp:2439: -requirecubemaps
+	tf2_src\engine\net_ws.cpp:73: -xnet_bypass_security
+	tf2_src\engine\net_ws.cpp:616: -reuse
+	tf2_src\engine\net_ws.cpp:675: -strictportbind
+	tf2_src\engine\net_ws.cpp:3064: -usercon
+	tf2_src\engine\net_ws.cpp:3198: -NoQueuedPacketThread
+	tf2_src\engine\net_ws.cpp:3204: -nodns
+	tf2_src\engine\net_ws.cpp:3209: -usetcp
+	tf2_src\engine\net_ws.cpp:3214: -nohltv
+	tf2_src\engine\net_ws.cpp:3219: -noip
+	tf2_src\engine\sv_log.cpp:283: -flushlog
+	tf2_src\engine\sv_main.cpp:924: -NoLoadPluginsForClient
+	tf2_src\engine\sv_main.cpp:2581: -allowstalezip
+	tf2_src\engine\sv_packedentities.cpp:642: -netspike
+	tf2_src\engine\sv_steamauth.cpp:172: -steamport
+	tf2_src\engine\sv_steamauth.cpp:237: -hushsteam
+	tf2_src\engine\sv_uploadgamestats.cpp:355: -nogamestats
+	tf2_src\engine\sys_dll.cpp:411: -nomessagebox
+	tf2_src\engine\sys_dll.cpp:574: -minmemory
+	tf2_src\engine\sys_dll.cpp:1069: -nodttest
+										 -dti
+	tf2_src\engine\sys_dll.cpp:1077: -random_invariant
+	tf2_src\engine\sys_dll2.cpp:875: -nobreakpad
+	tf2_src\engine\sys_dll2.cpp:882: -full_memory_dumps
+	tf2_src\engine\sys_dll2.cpp:1135: -vr
+	tf2_src\engine\sys_dll2.cpp:1166: -sv_benchmark
+	tf2_src\engine\sys_dll2.cpp:2289: -dumplongticks
+	tf2_src\engine\sys_dll2.cpp:2400: +sv_pure
+	tf2_src\engine\sys_dll2.cpp:2402: -sv_pure
+	tf2_src\engine\sys_dll2.cpp:2405: -sv_pure_verify_hashes
+	tf2_src\engine\sys_getmodes.cpp:858: -debugstartupscreen
+	tf2_src\engine\sys_getmodes.cpp:1029: -noshaderapi
+	tf2_src\engine\sys_getmodes.cpp:1377: -noborder
+	tf2_src\engine\sys_getmodes.cpp:2289: -small
+	tf2_src\engine\sys_mainwind.cpp:1261: -endgamevid
+	tf2_src\engine\sys_mainwind.cpp:1262: -recapvid
+	tf2_src\engine\sys_mainwind.cpp:1279: -dev || -novid || -allowdebug
+	tf2_src\engine\tmessage.cpp:378: -textmessagedebug
+	tf2_src\engine\vgui_baseui_interface.cpp:820: -hideconsole
+	tf2_src\engine\vgui_baseui_interface.cpp:821: -toconsole || -console || -rpt || -allowdebug
+	tf2_src\external\vpc\tier0\dbg.cpp:341: -profile
+	tf2_src\external\vpc\tier0\dbg.cpp:344: -etwprofile
+	tf2_src\external\vpc\tier1\interface.cpp:336: -xlsp
+	tf2_src\external\vpc\tier1\interface.cpp:341: -valveinternal
+	tf2_src\external\vpc\tier1\interface.cpp:347: -ds
+	tf2_src\filesystem\basefilesystem.cpp:94: -log_opened_files
+	tf2_src\filesystem\basefilesystem.cpp:339: -dvd
+	tf2_src\filesystem\basefilesystem.cpp:343: -dvddev
+	tf2_src\filesystem\basefilesystem.cpp:469: -fs_logbins
+	tf2_src\filesystem\basefilesystem.cpp:3102: -fs_nopreloaddata
+	tf2_src\filesystem\filesystem_async.cpp:657: -noasync
+	tf2_src\filesystem\filesystem_steam.cpp:331: -steamlocal
+	tf2_src\filesystem\QueuedLoader.cpp:1624: -noqueuedload
+	tf2_src\game\client\hud_lcd.cpp:55: -g15
+	tf2_src\game\client\in_forcefeedback.cpp:479: -noff
+	tf2_src\game\client\ScreenSpaceEffects.cpp:68: -filmgrain
+	tf2_src\game\client\tf\tf_gc_client.cpp:76: -nosteamdatagram
+	tf2_src\game\client\tf\tf_hud_mainmenuoverride.cpp:665: -menupaintduringinit
+	tf2_src\game\client\tf\vgui\tf_viewport.cpp:285: -precachefontchars ||  -precachefontintlchars
+	tf2_src\game\server\cstrike\bot\cs_bot_manager.cpp:52: -nobots
+	tf2_src\game\server\gameinterface.cpp:840: -tickrate
+	tf2_src\game\server\GameStats.cpp:629: -gamestatsloggingtofile
+	tf2_src\game\server\tf\workshop\maps_workshop.cpp:63: -ugcpath
+	tf2_src\game\shared\GameStats.cpp:1054: -gamestatsfileoutputonly
+	tf2_src\game\shared\multiplay_gamerules.cpp:1751: -bugbait
+	tf2_src\game\shared\tf\tf_gamerules.cpp:3123: -sillygibs
+	tf2_src\gameui\GameUI_Interface.cpp:392: -nostartupsound
+	tf2_src\gcsdk\gcbase.cpp:132: -raiseonassert
+	tf2_src\hammer\hammer.cpp:924: -chooseconfig
+	tf2_src\hammer\op_entity.cpp:3658: -NewDialogs
+	tf2_src\hammer_launcher\main.cpp:105: -nop4
+	tf2_src\inputsystem\inputsystem.cpp:95: -nosteamcontroller
+	tf2_src\inputsystem\joystick_sdl.cpp:178: -nojoy
+	tf2_src\launcher\launcher.cpp:381: -edit
+	tf2_src\launcher\launcher.cpp:425: -startmap
+										 -startstage
+	tf2_src\launcher\launcher.cpp:703: -tools
+										 -nop4 || -p4
+	tf2_src\launcher\launcher.cpp:1209: -sleepatstartup
+	tf2_src\launcher\launcher.cpp:1259: -dllinfo
+	tf2_src\launcher\launcher.cpp:1260: -vxconsole
+	tf2_src\launcher\launcher.cpp:1371: -multirun
+	tf2_src\launcher\launcher.cpp:1375: -hijack
+	tf2_src\launcher\launcher.cpp:1433: -low
+	tf2_src\launcher\launcher.cpp:1437: -high
+	tf2_src\launcher\launcher.cpp:1453: -leakcheck
+	tf2_src\launcher\reslistgenerator.cpp:503: -collate
+	tf2_src\materialsystem\cmaterialsystem.cpp:844: -forceallmips
+	tf2_src\materialsystem\cmaterialsystem.cpp:5182: -matscan
+	tf2_src\materialsystem\shaderapidx9\gpubufferallocator.cpp:47: -no_gpu_buffer_allocator
+	tf2_src\materialsystem\shaderapidx9\hardwareconfig.cpp:542: -glslmode
+	tf2_src\materialsystem\shaderapidx9\hardwareconfig.cpp:587: -glslcontrolflow
+	tf2_src\materialsystem\shaderapidx9\hardwareconfig.cpp:591: -noglslcontrolflow
+	tf2_src\materialsystem\shaderapidx9\hardwareconfig.cpp:926: -disallowhwmorph
+	tf2_src\materialsystem\shaderapidx9\shaderapidx8.cpp:3293: -disable_d3d9_hacks
+	tf2_src\materialsystem\shaderapidx9\shaderdevicebase.cpp:517: -debugdxsupport
+	tf2_src\materialsystem\shaderapidx9\shaderdevicebase.cpp:527: -ignoredxsupportcfg
+	tf2_src\materialsystem\shaderapidx9\shaderdevicebase.cpp:623: -arbmode ||  -nouserclip
+	tf2_src\materialsystem\shaderapidx9\shaderdevicedx10.cpp:175: -floathdr
+	tf2_src\materialsystem\shaderapidx9\shaderdevicedx8.cpp:154: -nod3d9ex
+	tf2_src\materialsystem\shaderapidx9\shaderdevicedx8.cpp:602: -force_device_id
+	tf2_src\materialsystem\shaderapidx9\shaderdevicedx8.cpp:616: -force_vendor_id
+	tf2_src\materialsystem\shaderapidx9\shaderdevicedx8.cpp:688: -nops2b
+	tf2_src\materialsystem\shaderapidx9\shaderdevicedx8.cpp:694: -mat_softwaretl
+	tf2_src\materialsystem\shaderapidx9\shaderdevicedx8.cpp:786: -limitvsconst
+	tf2_src\materialsystem\shaderapidx9\shaderdevicedx8.cpp:877: -nouserclip 
+																 -glslmode // NOTE: This launch option was commented out.
+	tf2_src\materialsystem\shaderapidx9\shaderdevicedx8.cpp:918: -nosrgb
+	tf2_src\materialsystem\shaderapidx9\shaderdevicedx8.cpp:1126: -no_compressed_verts
+	tf2_src\materialsystem\shaderapidx9\shaderdevicedx8.cpp:1686: -forcenovsync
+	tf2_src\materialsystem\shaderapidx9\vertexshaderdx8.cpp:901: -shadersondemand
+	tf2_src\materialsystem\shadersystem.cpp:350: -testshaders
+	tf2_src\materialsystem\shadersystem.cpp:689: -glmspew
+	tf2_src\materialsystem\stdshaders\spritecard.cpp:44: -softparticlesdefaultoff
+	tf2_src\materialsystem\stdshaders\spritecard.cpp:51: -softparticlesdefaulton
+	tf2_src\materialsystem\texturemanager.cpp:2754: -no_texture_stream
+	tf2_src\public\filesystem_init.cpp:500: -tempcontent
+	tf2_src\public\togl\linuxwin\glmgr.h:518: -caps_noclipplanes
+	tf2_src\public\togl\linuxwin\glmgr.h:2351: -disablemaxvertexshaderconstanthints
+	tf2_src\sdklauncher\Main.cpp:508: -runhammer
+	tf2_src\sdklauncher\Main.cpp:514: -runmodelviewer
+	tf2_src\sdklauncher\Main.cpp:520: -runfaceposer
+	tf2_src\sdklauncher\Main.cpp:533: -AutoHL2Mod
+	tf2_src\sdklauncher\Main.cpp:536: -CreateMod
+	tf2_src\tier0\dbg.cpp:381: -hushasserts
+	tf2_src\tier1\KeyValues.cpp:657: -enable_keyvalues_cache
+	tf2_src\togl\linuxwin\cglmprogram.cpp:359: -gl_time_shader_compiles
+	tf2_src\togl\linuxwin\cglmprogram.cpp:482: -gl_validate_shader_early
+	tf2_src\togl\linuxwin\cglmprogram.cpp:1166: -dumpallshaders
+	tf2_src\togl\linuxwin\cglmtex.cpp:1254: -disable_srgbtex
+	tf2_src\togl\linuxwin\cglmtex.cpp:1795: -glmspewallsrgbflips
+	tf2_src\togl\linuxwin\cglmtex.cpp:1796: -glmspewfirstsrgbflips
+	tf2_src\togl\linuxwin\cglmtex.cpp:1797: -glmspewfreqsrgbflips
+	tf2_src\togl\linuxwin\cglmtex.cpp:1798: -glmspewsrgbcrawls
+	tf2_src\togl\linuxwin\cglmtex.cpp:1799: -glmspewsrgbmaxcrawls
+	tf2_src\togl\linuxwin\cglmtex.cpp:1874: -glmnosrgbflips
+	tf2_src\togl\linuxwin\dxabstract.cpp:1677: -glmenabletrustmsaa
+	tf2_src\togl\linuxwin\dxabstract.cpp:4180: -disableboneuniformbuffers
+	tf2_src\togl\linuxwin\glentrypoints.cpp:432: -gl_nv_bindless_texturing
+	tf2_src\togl\linuxwin\glentrypoints.cpp:446: -gl_amd_pinned_memory
+	tf2_src\togl\linuxwin\glentrypoints.cpp:455: -gl_disable_arb_buffer_storage
+	tf2_src\togl\linuxwin\glentrypoints.cpp:472: -glmnosrgbdecode
+	tf2_src\togl\linuxwin\glmgr.cpp:2464: -gl_disablesamplerobjects
+	tf2_src\togl\linuxwin\glmgr.cpp:2470: -gl_enablesamplerobjects
+	tf2_src\togl\linuxwin\glmgr.cpp:2479: -gl_texclientstorage
+	tf2_src\togl\linuxwin\glmgr.cpp:2530: -glmassertslow
+	tf2_src\togl\linuxwin\glmgr.cpp:2531: -glmspewslow
+	tf2_src\togl\linuxwin\glmgr.cpp:2532: -glcheckerrors
+	tf2_src\togl\linuxwin\glmgr.cpp:2543: -arbmode
+										 -glslcontrolflow
+	tf2_src\togl\linuxwin\glmgr.cpp:2601: -glmspewcaps
+	tf2_src\togl\linuxwin\glmgr.cpp:2666: -glmwriteallslots
+	tf2_src\togl\linuxwin\glmgr.cpp:2667: -glmwriteshaderslots
+	tf2_src\togl\linuxwin\glmgr.cpp:2668: -glmwriteshaderslotsoptional
+	tf2_src\togl\linuxwin\glmgr.cpp:2669: -glmwritedirtyslotrange
+	tf2_src\togl\linuxwin\glmgr.cpp:2673: -glmwriteallattribs
+	tf2_src\togl\linuxwin\glmgr.cpp:2674: -glmwritedirtyattribs
+	tf2_src\togl\linuxwin\glmgr.cpp:2755: -glmenablemtgl2
+	tf2_src\togl\linuxwin\glmgr.cpp:2760: -glmdisablemtgl2
+	tf2_src\togl\linuxwin\glmgrbasics.cpp:2726: -noprintconsole
+	tf2_src\togl\linuxwin\glmgrbasics.cpp:2731: -noprintdebugger
+	tf2_src\togl\linuxwin\glmgrbasics.cpp:2736: -noprintoglp
+	tf2_src\togl\linuxwin\glmgrbasics.cpp:2754: -glmbootspew
+	tf2_src\tracker\AdminServer\GamePanelInfo.cpp:85: -BudgetPanel
+	tf2_src\unittests\ihvtest1\ihvtest1.cpp:1346: -bench
+	tf2_src\unittests\ihvtest1\ihvtest1.cpp:1366: -softwaretl
+	tf2_src\utils\dmxedit\dmxedit.cpp:3732: -coe || -continueOnError
+	tf2_src\utils\dmxedit\luamain.cpp:142: -h || -help
+	tf2_src\utils\dmxedit\luamain.cpp:148: -wiki
+	tf2_src\utils\glview\glview.cpp:1374: -portal
+	tf2_src\utils\hlfaceposer\mdlviewer.cpp:770: -NoSteamDialog
+	tf2_src\utils\hlfaceposer\mxexpressiontray.cpp:1169: -perplayerexpressions
+	tf2_src\utils\hlmv\controlpanel.cpp:3013: -nosort
+	tf2_src\utils\hlmv\mdlviewer.cpp:1357: -olddialogs
+	tf2_src\utils\hlmv\mdlviewer.cpp:1459: -NoSteamdDialog
+	tf2_src\utils\hlmv\mdlviewer.cpp:1505: -screenshot
+	tf2_src\utils\sceneviewer\sceneviewer.cpp:407: -nozoom
+	tf2_src\utils\sceneviewer\sceneviewer.cpp:417: -showasset
+	tf2_src\utils\sceneviewer\sceneviewer.cpp:423: -showcomboeditor
+	tf2_src\utils\sfmgen\sfmgen.cpp:941: -nosfm
+	tf2_src\utils\sfmgen\sfmgen.cpp:942: -mp3
+	tf2_src\utils\shadercompile\d3dxfxc.cpp:240: -nointercept
+	tf2_src\utils\shadercompile\shadercompile.cpp:1132: -debugwait
+	tf2_src\utils\shadercompile\shadercompile.cpp:2227: -verbose
+	tf2_src\utils\shadercompile\shadercompile.cpp:2389: -subprocess
+	tf2_src\utils\shadercompile\shadercompile.cpp:2398: -x360
+	tf2_src\utils\shadercompile\shadercompile.cpp:2401: -nompi
+	tf2_src\utils\vmpi\vmpi_distribute_work_default.cpp:348: -mpi_NoScheduler
+	tf2_src\utils\vmpi\vmpi_transfer\vmpi_transfer.cpp:159: -PatchHost
+	tf2_src\utils\vtex\vtex.cpp:131: -crcvalidate
+	tf2_src\utils\vtex\vtex.cpp:1837: -crcforce
+	tf2_src\utils\vtex\vtex.cpp:2382: -deducepath
+	tf2_src\utils\vtex\vtex.cpp:2437: -quickconvert
+	tf2_src\utils\vtex\vtex.cpp:2859: -p4skip
+	tf2_src\utils\vtf2tga\vtf2tga.cpp:65: -mip
+	tf2_src\utils\xbox\MakeGameData\MakeGameData.cpp:1040: -v || -version
+	tf2_src\utils\xbox\MakeGameData\MakeGameData.cpp:1047: -? || -h || -help
+	tf2_src\utils\xbox\MakeGameData\MakeGameData.cpp:1069: -recurse || -r
+	tf2_src\utils\xbox\MakeGameData\MakeGameData.cpp:1070: -force || -f
+	tf2_src\utils\xbox\MakeGameData\MakeGameData.cpp:1072: -quiet || -q
+	tf2_src\utils\xbox\MakeGameData\MakeGameData.cpp:1073: -scenes
+	tf2_src\utils\xbox\MakeGameData\MakeGameData.cpp:1074: -pcscenes
+	tf2_src\utils\xbox\MakeGameData\MakeGameData.cpp:1080: -usemaplist
+	tf2_src\utils\xbox\MakeGameData\MakeGameData.cpp:1085: -z
+	tf2_src\utils\xbox\MakeGameData\MakeGameData.cpp:1095: -zo
+	tf2_src\utils\xbox\MakeGameData\MakeGameData.cpp:1126: -preloadinfo
+	tf2_src\utils\xbox\vxbdm\console.cpp:569: -syncoutput
+	tf2_src\utils\xbox\xbspinfo\xbspinfo.cpp:406: -p || -percent
+	tf2_src\utils\xbox\xbspinfo\xbspinfo.cpp:407: -b || -bytes
+	tf2_src\utils\xbox\xbspinfo\xbspinfo.cpp:409: -ss
+	tf2_src\utils\xbox\xbspinfo\xbspinfo.cpp:410: -names
+	tf2_src\vgui2\src\InputWin32.cpp:560: -vguifocus
+	tf2_src\vgui2\src\LocalizedStringTable.cpp:429: -ccsyntax
+	tf2_src\vgui2\src\vgui.cpp:1158: -vguimessages
+	tf2_src\vguimatsurface\MatSystemSurface.cpp:348: -disable_matsurf_noculls
+	tf2_src\video\quicktime_video.cpp:696: -noquicktime
