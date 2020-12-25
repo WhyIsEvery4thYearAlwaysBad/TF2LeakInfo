@@ -1,3 +1,11 @@
+# Context
+
+Please note that this documentation is unfinished, and descriptions may not be correct. If you feel that these explanations are wrong, please tell me!
+
+Also note that some of the launch options may not neccessarily be in TF2 itself, but rather it's utility programs.
+
+# Core Game (hl2.exe)
+
 ## Processing
 
 * `-yieldcycles` - Forces the Game Manager to yield execution after updating. Usefulf for running 2 instances of the same game.
