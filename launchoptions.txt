@@ -1,4 +1,4 @@
-This is a list of launch options found in the source code. Keep in mind that some of these may be disabled.
+This is a list of launch options found in the source code. Keep in mind that some of these may be disabled, and some might be used more than once in more than one program.
 
 	tf2_src\app\legion\gamemanager.cpp:231: -yieldcycles
 	tf2_src\appframework\glmdisplaydb_linuxwin.inl:56: -glmdisableclipplanes
