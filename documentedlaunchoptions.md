@@ -24,8 +24,7 @@ Also note that some of the launch options may not neccessarily be in TF2 itself,
 
 * `-glmenabletrustblit` and `-glmdisabletrustblit` - (Unfinished)
 
-* `-glmenableperfpackage` and `-glmdisableperfpackage` - Force enable/
-disable certain GL optimizations on Unix.
+* `-glmenableperfpackage` and `-glmdisableperfpackage` - Force enable/disable certain GL optimizations on Unix.
 
 * `-gl_enable_scaled_resolve` - Enable availability of Scaled Resolve if the OS X version has SLGU and is newer than 10.7.0. Versions prior to 10.6.5 do not have Scaled Resolve, and later versions determine Scaled Resolve support through the `GL_EXT_framebuffer_multisample_blit_scaled` string.
 
