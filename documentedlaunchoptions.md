@@ -35,7 +35,7 @@ Note that the *activation* of Scaled Resolve is tied to the convars `gl_minify_r
 
 ## Audio
 
-* `-wavonly` - Forces the game to only use WAVs.
+* `-wavonly` - Forces the game to only use WAV files.
 * `-forcesound` - Forces sound initialization routine, regardless if the game is running of Source Dedicated Server (srcDS).
 
 ## SDL
