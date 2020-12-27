@@ -37,9 +37,10 @@ Note that the *activation* of Scaled Resolve is tied to the convars `gl_minify_r
 
 * `-wavonly` - Forces the game to only use WAV files.
 
-* `-forcesound` - Forces sound initialization routine, regardless if the game is running of Source Dedicated Server (srcDS).
+* `-forcesound` - Forces sound initialization routine regardless if the game is running on Source Dedicated Server (srcDS).
 
 ## SDL
 
 * `-nonquerty` - Use the keyname to workout the scan code when handling key input. This is an experimental feature.
+
 * `-exclusivefs` - Tells the game to minimize the window if in fullscreen mode, and the player Command-Tabs. Only works on OS X.
