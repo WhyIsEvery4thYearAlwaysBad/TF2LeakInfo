@@ -34,6 +34,11 @@ disable certain GL optimizations on Unix.
 * `-glmenablemallocworkaround` and `-glmdisablemallocworkaround` - Enable/Disable a workaround to a GLSL bug in the Intel HD4000 OpenGL driver on OS X 10.8 (aka Mountain Lion).
 Note that the *activation* of Scaled Resolve is tied to the convars `gl_minify_resolve_mode` and `gl_magnify_resolve_mode`.
 
+## Audio
+
+* `-wavonly` - Forces the game to only use WAVs.
+* `-forcesound` - Forces sound initialization routine, regardless if the game is running of Source Dedicated Server (srcDS).
+
 ## SDL
 
 * `-nonquerty` - Use the keyname to workout the scan code when handling key input. This is an experimental feature.
