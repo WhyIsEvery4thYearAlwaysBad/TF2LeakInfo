@@ -28,7 +28,7 @@ Also note that some of the launch options may not neccessarily be in TF2 itself,
 
 * `-glmenableclipplanes` - Force enable clip planes for OpenGL.
 
-* `-glmenabletrustblit` and `-glmdisabletrustblit` - (Unfinished)
+* `-glmenabletrustblit` and `-glmdisabletrustblit` - Force enable or disable trusted blitting.
 
 * `-glmenableperfpackage` and `-glmdisableperfpackage` - Force enable/disable certain GL optimizations on Unix.
 
