@@ -44,3 +44,7 @@ Note that the *activation* of Scaled Resolve is tied to the convars `gl_minify_r
 * `-nonquerty` - Use the keyname to workout the scan code when handling key input. This is an experimental feature.
 
 * `-exclusivefs` - Tells the game to minimize the window if in fullscreen mode, and the player Command-Tabs. Only works on OS X.
+
+# Dedicated Server
+
+* `-usegh` - Load support for third party DLLs by loading the DLL "ghostinj.dll".
