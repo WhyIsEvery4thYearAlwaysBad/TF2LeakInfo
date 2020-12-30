@@ -55,3 +55,5 @@ Note that the *activation* of Scaled Resolve is tied to the convars `gl_minify_r
 * `-nonquerty` - Use the keyname to workout the scan code when handling key input. This is an experimental feature.
 
 * `-exclusivefs` - Tells the game to minimize the window if in fullscreen mode, and the player Command-Tabs. Only works on OS X.
+
+* `-displayindex <value>` - Sets display index to \<value\>. Only works if USE_SDL is defined or SWDS is not defined.
