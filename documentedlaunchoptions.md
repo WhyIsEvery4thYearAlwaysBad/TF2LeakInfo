@@ -44,6 +44,8 @@ Note that the *activation* of Scaled Resolve is tied to the convars `gl_minify_r
 
 * `-forcesound` - Forces sound initialization routine regardless if the game is running on Source Dedicated Server (srcDS).
 
+* `-audiolanguage <string>` - Sets audio language based on \<string\>.
+
 ## Video
 
 * `-noquicktime` - Disables QuickTime initalization routine.
