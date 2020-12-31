@@ -18,8 +18,6 @@ Also note that some of the launch options may not neccessarily be in TF2 itself,
 
 * `-disablemaxvertexshaderconstanthints` - Maximum vertex shader constant hints is set to 256 and doesn't change.
 
-* `-gl_time_shader_compiles` - Keeps track of total cycle count spent on shader compiles.
-
 ### DirectX
 
 * `-disable_d3d9_hacks` - Disables d3d9 hacks. One hack it removes is the "CENT" hack that causes the flashlight pass to appear much brighter on NVidia drivers.
