@@ -14,6 +14,10 @@ Also note that some of the launch options may not neccessarily be in TF2 itself,
 
 ## Graphics
 
+* `-caps_noclipplanes` - Makes CAPSLOCK toggle clip planes between on and off. Only works if GLMDEBUG is defined.
+
+* `-disablemaxvertexshaderconstanthints` - Maximum vertex shader constant hints is set to 256D and doesn't change.
+
 ### DirectX
 
 * `-disable_d3d9_hacks` - Disables d3d9 hacks. One hack it removes is the "CENT" hack that causes the flashlight pass to appear much brighter on NVidia drivers.
@@ -24,9 +28,7 @@ Also note that some of the launch options may not neccessarily be in TF2 itself,
 
 * `-glmnosystemcheck` - Bypasses the forbidden Graphics Processor check for GMA950, X3100, or NV G7x cards, and the version check for OS X 10.6.7 or later. Only works on OS X.
 
-* `-glmdisableclipplanes` - Force disable clip planes for OpenGL.
-
-* `-glmenableclipplanes` - Force enable clip planes for OpenGL.
+* `-glmenableclipplanes` and `-glmdisableclipplanes` - Force enable/disable clip planes for OpenGL.
 
 * `-glmenabletrustblit` and `-glmdisabletrustblit` - Force enable or disable trusted blitting.
 
