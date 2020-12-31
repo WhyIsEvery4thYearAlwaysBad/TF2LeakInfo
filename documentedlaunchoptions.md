@@ -44,6 +44,10 @@ Note that the *activation* of Scaled Resolve is tied to the convars `gl_minify_r
 
 * `-glmenablemallocworkaround` and `-glmdisablemallocworkaround` - Enable/Disable a workaround to a GLSL bug in the Intel HD4000 OpenGL driver on OS X 10.8 (aka Mountain Lion).
 
+* `-gl_time_shader_compiles` - Keeps track of total cycle count spent on shader compiles.
+
+* `-gl_validate_shader_early` - "Check shader validity at creation time.  This will cause the driver to not be able to multi-thread/defer shader compiles, but it is useful for getting error messages on the shader when it is compiled." (Comment located in hl2_src/togl/linuxwin/cglmprogram.cpp @ lines 479-481.)
+
 ## Audio
 
 * `-forcesound` - Forces sound initialization routine regardless if the game is running on Source Dedicated Server (srcDS).
