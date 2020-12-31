@@ -16,7 +16,7 @@ Also note that some of the launch options may not neccessarily be in TF2 itself,
 
 * `-caps_noclipplanes` - Makes CAPSLOCK toggle clip planes between on and off. Only works if GLMDEBUG is defined.
 
-* `-disablemaxvertexshaderconstanthints` - Maximum vertex shader constant hints is set to 256D and doesn't change.
+* `-disablemaxvertexshaderconstanthints` - Maximum vertex shader constant hints is set to 256 and doesn't change.
 
 ### DirectX
 
