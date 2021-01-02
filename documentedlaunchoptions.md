@@ -12,6 +12,10 @@ Also note that some of the launch options may not neccessarily be in TF2 itself,
 
 * `-enable_keyvalues_cache` - Enables the KV cache. This launch option is disabled, because players used it to bypass sv_pure 1, as mentioned in hl2_src/tier1/KeyValues.cpp @ lines 660-683.
 
+## Memory
+
+* `-no_gpu_buffer_allocator` - Disables allocations of memory pools in the GPU Buffer. Only works on Xbox 360.
+
 ## Graphics
 
 * `-caps_noclipplanes` - Makes CAPSLOCK toggle clip planes between on and off. Only works if GLMDEBUG is defined.
