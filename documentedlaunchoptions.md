@@ -20,7 +20,7 @@ Also note that some of the launch options may not neccessarily be in TF2 itself,
 
 ### DirectX
 
-* `-disable_d3d9_hacks` - Disables d3d9 hacks. One hack it removes is the "CENT" hack that causes the flashlight pass to appear much brighter on NVidia drivers.
+* `-disable_d3d9_hacks` - Disables D3D9 hacks. One hack it removes is the "CENT" hack that causes the flashlight pass to appear much brighter on NVidia drivers.
 
 ### OpenGL
 
