@@ -10,7 +10,7 @@ Also note that some of the launch options may not neccessarily be in TF2 itself,
 
 * `-yieldcycles` - Forces the Game Manager to yield execution after updating. Useful for running 2 instances of the same game.
 
-* `-enable_keyvalues_cache` - Enables the KV cache. This launch option is disabled, because players used it to bypass sv_pure 1, as mentioned in tier1/KeyValues.cpp @ lines 660-683.
+* `-enable_keyvalues_cache` - Enables the KV cache. This launch option is disabled, because players used it to bypass sv_pure 1, as mentioned in hl2_src/tier1/KeyValues.cpp @ lines 660-683.
 
 ## Graphics
 
