@@ -60,6 +60,8 @@ Note that the *activation* of Scaled Resolve is tied to the convars `gl_minify_r
 
 * `-audiolanguage <string>` - Sets audio language based on \<string\>.
 
+* `-snd_openal` - Forces the game to use OpenAL instead of AudioQueue. Only works on OS X.
+
 ## Video
 
 * `-noquicktime` - Disables QuickTime initalization routine.
