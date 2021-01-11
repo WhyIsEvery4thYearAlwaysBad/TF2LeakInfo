@@ -12,6 +12,8 @@ Also note that some of the launch options may not neccessarily be in TF2 itself,
 
 * `-enable_keyvalues_cache` - Enables the KV cache. This launch option is disabled, because players used it to bypass sv_pure 1, as mentioned in hl2_src/tier1/KeyValues.cpp @ lines 660-683.
 
+* `-sv_pure_verify_hashes` - Recalculate VPK hashes after enabling whitelist file trackinge if sv_pure is set. Only works in dedicated servers.
+
 ## Memory
 
 * `-no_gpu_buffer_allocator` - Disables allocations of memory pools in the GPU Buffer. Only works on Xbox 360.
