@@ -1,8 +1,8 @@
 # Context
 
-Please note that this documentation is unfinished, and descriptions may not be correct. If you feel that these explanations are wrong, please tell me!
+Please note that this documentation is unfinished, and descriptions may not be 100% correct. If you feel that these explanations are wrong, please tell me through the issues section!
 
-Also note that some of the launch options may not neccessarily be in TF2 itself, but rather it's utility programs.
+Also note that some of the launch options may not neccessarily be in TF2 itself, but rather it's utility programs. I'll make a separate section for those after I am finished with all the launch options in TF2 itself.
 
 # Core Game (hl2.exe)
 
