@@ -80,4 +80,4 @@ Note that the *activation* of Scaled Resolve is tied to the convars `gl_minify_r
 
 ## Misc
 
-* `-menupaintduringinit` - Forces the main menu override to paint when PaintTraversal() is called, instead of waiting until the main menu layout finishes it's initialization routine.
+* `-menupaintduringinit` - Forces the main menu override to immediately perform paint traversal when PaintTraversal() is called, instead of waiting until the main menu layout initialization routine is finished.
