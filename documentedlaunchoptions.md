@@ -79,5 +79,4 @@ Note that the *activation* of Scaled Resolve is tied to the convars `gl_minify_r
 * `-displayindex <value>` - Sets display index to \<value\>. Only works if USE_SDL is defined and SWDS is not defined.
 
 ## Misc
-
-* `-menupaintduringinit` - Forces the main menu override to immediately perform paint traversal when PaintTraversal() is called, instead of waiting until the main menu layout initialization routine is finished.
+* `-menupaintduringinit` - Forces the main menu override to immediately perform paint traversal when `CHudMainMenuOverride::PaintTraverse()` is called, instead of waiting until the main menu layout initialization routine is finished.
