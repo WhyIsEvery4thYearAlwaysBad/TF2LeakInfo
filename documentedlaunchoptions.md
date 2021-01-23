@@ -75,3 +75,7 @@ Note that the *activation* of Scaled Resolve is tied to the convars `gl_minify_r
 * `-exclusivefs` - Tells the game to minimize the window if in fullscreen mode, and the player Command-Tabs. Only works on OS X.
 
 * `-displayindex <value>` - Sets display index to \<value\>. Only works if USE_SDL is defined and SWDS is not defined.
+
+## Misc
+
+* `-menupaintduringinit` - Forces the main menu override to paint when PaintTraversal() is called, instead of waiting until the main menu layout finishes it's initialization routine.
