@@ -16,7 +16,7 @@ Also note that some of the launch options may not neccessarily be in TF2 itself,
 
 ## Memory
 
-* `-no_gpu_buffer_allocator` - Disables allocations of memory pools in the GPU Buffer. Only works on Xbox 360.
+* `-no_gpu_buffer_allocator` (![Xbox 360](assets/360logo.png) only) - Disables allocations of memory pools in the GPU Buffer. Only works on Xbox 360.
 
 ## Graphics
 
@@ -27,34 +27,33 @@ Also note that some of the launch options may not neccessarily be in TF2 itself,
 ### DirectX
 
 * `-disable_d3d9_hacks` - Disables the following D3D9 hacks: 
-
 	* "CENT" - causes flashlight passes to appear brighter on NVidia drivers.
 
 ### OpenGL
 
 * `-glmenablefakesrgb` - Force the simulation of sRGB mode.
 
-* `-glmnosystemcheck` - Bypasses the forbidden Graphics Processor check for GMA950, X3100, or NV G7x cards, and the version check for OS X 10.6.7 or later. Only works on OS X.
+* `-glmnosystemcheck` (![OS X](assets/osxlogo.png) only) - Bypasses the forbidden Graphics Processor check for GMA950, X3100, or NV G7x cards, and the version check for OS X 10.6.7 or later.
 
 * `-glmenableclipplanes` and `-glmdisableclipplanes` - Force enable/disable clip planes for OpenGL.
 
 * `-glmenabletrustblit` and `-glmdisabletrustblit` - Force enable or disable trusted blitting.
 
-* `-glmenableperfpackage` and `-glmdisableperfpackage` - Force enable/disable certain OpenGL optimizations on Unix.
+* `-glmenableperfpackage` and `-glmdisableperfpackage` (![OS X](assets/osxlogo.png)![and Linux](assets/linuxlogo.png) only) - Force enable/disable certain OpenGL optimizations on Unix.
 
-* `-gl_enable_scaled_resolve` - Enable Scaled Resolve if the OS X version has SLGU and is newer than 10.7.0. Versions prior to 10.6.5 do not have Scaled Resolve, and later versions determine Scaled Resolve support through the `GL_EXT_framebuffer_multisample_blit_scaled` string.
-
-Note that the *activation* of Scaled Resolve is tied to the convars `gl_minify_resolve_mode` and `gl_magnify_resolve_mode`.
+* `-gl_enable_scaled_resolve` (![OS X](assets/osxlogo.png) only) - Enable Scaled Resolve if the OS X version has SLGU and is newer than 10.7.0. Versions prior to 10.6.5 do not have Scaled Resolve, and later versions determine Scaled Resolve support through the `GL_EXT_framebuffer_multisample_blit_scaled` string.
 
 * `-gl_force_enable_scaled_resolve` - Force enable Scaled Resolve.
 
-* `-glmenablemallocworkaround` and `-glmdisablemallocworkaround` - Enable/Disable a workaround to a GLSL bug in the Intel HD4000 OpenGL driver on OS X 10.8 (aka Mountain Lion).
+Note that the *activation* of Scaled Resolve is tied to the convars `gl_minify_resolve_mode` and `gl_magnify_resolve_mode`.
+
+* `-glmenablemallocworkaround` and `-glmdisablemallocworkaround` (![OS X](assets/osxlogo.png) only) - Enable/Disable a workaround to a GLSL memory allocation bug in the Intel HD4000 OpenGL driver on OS X 10.8 (aka Mountain Lion).
 
 * `-gl_time_shader_compiles` - Keeps track of total cycle count spent on shader compiles.
 
 * `-gl_validate_shader_early` - "Check shader validity at creation time.  This will cause the driver to not be able to multi-thread/defer shader compiles, but it is useful for getting error messages on the shader when it is compiled." (Comment located in hl2_src/togl/linuxwin/cglmprogram.cpp @ lines 479-481.)
 
-* `-glslcontrolflow` - Enables static control flow support. Only works on OS X.
+* `-glslcontrolflow` (![OS X](assets/osxlogo.png) only) - Enables static control flow support.
 
 * `-noglslcontrolflow` - Disables static control flow support.
 
@@ -64,7 +63,7 @@ Note that the *activation* of Scaled Resolve is tied to the convars `gl_minify_r
 
 * `-audiolanguage <string>` - Sets audio language based on \<string\>.
 
-* `-snd_openal` - Forces the game to use OpenAL instead of AudioQueue. Only works on OS X.
+* `-snd_openal` (![OS X](assets/osxlogo.png) only) - Forces the game to use OpenAL instead of AudioQueue.
 
 ## Video
 
@@ -72,9 +71,9 @@ Note that the *activation* of Scaled Resolve is tied to the convars `gl_minify_r
 
 ## SDL
 
-* `-nonquerty` - Use the keyname to workout the scan code when handling key input. This is an experimental feature.
+* `-nonquerty` (![OS X](assets/osxlogo.png) only) - Use the keyname to workout the scan code when handling key input. This is an experimental feature.
 
-* `-exclusivefs` - Tells the game to minimize the window if in fullscreen mode, and the player Command-Tabs. Only works on OS X.
+* `-exclusivefs` (![OS X](assets/osxlogo.png) only) - Tells the game to minimize the window if the player is in fullscreen mode and the player does the Cmd-Tab key combination.
 
 * `-displayindex <value>` - Sets display index to \<value\>. Only works if USE_SDL is defined and SWDS is not defined.
 
