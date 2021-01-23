@@ -1,4 +1,4 @@
-# Context
+# Disclaimer
 
 Please note that this documentation is unfinished, and descriptions may not be 100% correct. If you feel that these explanations are wrong, please tell me through the issues section!
 
