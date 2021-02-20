@@ -79,3 +79,39 @@ Note that the *activation* of Scaled Resolve is tied to the convars `gl_minify_r
 
 ## Misc
 * `-menupaintduringinit` - Forces the main menu override to immediately perform paint traversal when `CHudMainMenuOverride::PaintTraverse()` is called, instead of waiting until the main menu layout initialization routine is finished.
+
+* `-gamestatsfileoutputonly` - Logs Valve match data after exiting the game in a Key-Value file named "gamestats.dat" in the tf folder, instead of uploading it to steam.
+KVs:
+	* IsPC - Client is on PC.
+	* Version - Version of format which is currently "1".
+	* srcid - ID to identify the user.
+	* CPUID - ID of the client's CPU.
+	* CPUGhz - Client CPU's clock speed in Ghz.
+	* CPUModel - Model of the client's CPU.
+	* CPUFeatures\<0-2\> - Client CPU features.
+	* NumCores - Number of physical processors Source identifies in the client's CPU.
+	* PhysicalRamMbTotal - Amount of total physical memory not taken up by the OS in Megabytes (or Mebibytes?).
+	* PhysicalRamMbAvailable - Amount of free physical memory in Megabytes (or Mebibytes?).
+	* VirtualRamMbTotal - Amount of total virtual memory not taken up by the OS in Megabytes (or Mebibytes?).
+	* VirtualRamMbAvailable - Amount of free virtual memory in Megabytes (or Mebibytes?).
+	* GPUDrv - Drive name of the GPU.
+	* GPUVendor - ID of the GPU vendor.
+	* GPUDeviceID - ID of the GPU.
+	* GPUDriverVersion - GPU driver version.
+	* DxLvl - Client's DXLevel.
+	* Width - Client's width in resolution.
+	* Height - Client's Height in resolution.
+	* Windowed - Client's game is windowed.
+	* MaxDxLevel - Maximum DXLevel accessible.
+	* appid - Steam game id.
+	* tf_configdata
+		* QuickListBitField - Undocumented.
+		* TextLanguage - Textual language set in steam.
+		* AudioLanguage - Audio language set in steam.
+		* CountryCode - Client's country location.
+	* map - There will be multiple of these for every map you play.
+		* mapname - The name of the map played.
+	* playtime
+		* TotalLevelTime - Amount of time spent in all maps played. *(todo: in what unit?)*
+		* NumLevels - Number of maps played.
+	* LoadTimeMap - Amount of time spent loading the map. *(todo: in what unit?)*
