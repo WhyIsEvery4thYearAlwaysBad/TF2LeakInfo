@@ -1,6 +1,6 @@
 # Undocumented TF2 ConCommand, ConVar, and Entity Documentation
 
-This file contains documentation for commands, cvars, and TF2 entities that don't have any documentation. This documentation *will only* include TF2-specific stuff.
+This file contains documentation for TF2-*only* commands, cvars, and entities that don't have any documentation. 
 
 # Entities
 
