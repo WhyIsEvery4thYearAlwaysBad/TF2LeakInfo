@@ -15,7 +15,7 @@ The Speed Pad is a teleporter that when walked on, it gives a conditional speed 
 Interestingly enough, there is conflicting code to make the conditional speed bost last (3 + level) seconds, located in the function CObjectTeleporter::ApplySpeedBoost(CTFPlayer), which is called in CObjectTeleporter::TeleporterTouch(CBaseEntity). If this code took priority, these are the attributes it would have.
 
 Level | Boost Duration
-----------------------
+------|---------------
 1 | 4 sec
 2 | 5 sec
 3 | 6 sec
