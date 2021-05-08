@@ -28,6 +28,7 @@ Also note that some of the launch options may not neccessarily be in TF2 itself,
 
 * `-disable_d3d9_hacks` - Disables the following D3D9 hacks: 
 	* "CENT" - causes flashlight passes to appear brighter on NVidia drivers.
+	* "COPM" - Uncertain. Needs more resesarch.
 
 ### OpenGL
 
@@ -82,9 +83,9 @@ Note that the *activation* of Scaled Resolve is tied to the convars `gl_minify_r
 
 * `-gamestatsfileoutputonly` - Logs Valve match data after exiting the game in a Key-Value file named "gamestats.dat" in the tf folder, instead of uploading it to steam.
 KVs:
-	* IsPC - Client is on PC.
-	* Version - Version of format which is currently "1".
-	* srcid - ID to identify the user.
+	* IsPC - Is the client playing the PC version of Team Fortress 2?
+	* Version - Version of the match data format which is currently "1".
+	* srcid - A UUID to identify the user.
 	* CPUID - ID of the client's CPU.
 	* CPUGhz - Client CPU's clock speed in Ghz.
 	* CPUModel - Model of the client's CPU.
@@ -98,18 +99,18 @@ KVs:
 	* GPUVendor - ID of the GPU vendor.
 	* GPUDeviceID - ID of the GPU.
 	* GPUDriverVersion - GPU driver version.
-	* DxLvl - Client's DXLevel.
+	* DxLvl - Client's DirectX version (defined by `mat_dxlevel` cvar).
 	* Width - Client's width in resolution.
 	* Height - Client's Height in resolution.
 	* Windowed - Client's game is windowed.
-	* MaxDxLevel - Maximum DXLevel accessible.
+	* MaxDxLevel - Maximum DirectX version accessible.
 	* appid - Steam game id.
 	* tf_configdata
 		* QuickListBitField - Undocumented.
-		* TextLanguage - Textual language set in steam.
-		* AudioLanguage - Audio language set in steam.
+		* TextLanguage - Textual language set in Steam.
+		* AudioLanguage - Audio language set in Steam.
 		* CountryCode - Client's country location.
-	* map - There will be multiple of these for every map you play.
+	* map - The amount of these KVs vary based on how many maps are played.
 		* mapname - The name of the map played.
 	* playtime
 		* TotalLevelTime - Amount of time spent in all maps played. *(todo: in what unit?)*
